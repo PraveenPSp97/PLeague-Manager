@@ -1,0 +1,27 @@
+
+<div class="nav">
+  <a routerLink="/">
+    <p>PLeague<br />Manager</p></a
+  >
+</div>
+<div class="display">
+  <div *ngFor="let events of teams.upcoming" class="main">
+    <div class="main-container">
+      <div class="team">
+        <img [src]="events.team1img" alt="" class="logo" />
+        <!-- <h3>{{ events.team1 }}</h3> -->
+      </div>
+      <div>
+        <h2>{{ events.time }}</h2>
+
+        <h2>VS</h2>
+        <h2>{{ events.date }}</h2>
+      </div>
+
+      <div class="team">
+        <img [src]="events.team2img" alt="" class="logo" />
+        <!-- <h3>{{ events.team2 }}</h3> -->
+      </div>
+    </div>
+  </div>
+</div>

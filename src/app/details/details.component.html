@@ -1,0 +1,24 @@
+
+
+<div class="title">
+ 
+  <div class="content title1" id="rank2">
+    <a routerLink="/"
+      >PLeague<br />
+      Manager</a
+    >
+  </div>
+  <div class="content title1" id="name"><h1>Team</h1></div>
+  <div class="content title1" id="rank1"><h1>Pts</h1></div>
+</div>
+<div *ngFor="let team4 of teams.points" class="container">
+  <div class="content" id="rank">
+    <h2>{{ team4.rank }}</h2>
+  </div>
+  <div class="content" id="name">
+    <h2>{{ team4.name }}</h2>
+  </div>
+  <div class="content" id="rank">
+    <h2>{{ team4.points }}</h2>
+  </div>
+</div>

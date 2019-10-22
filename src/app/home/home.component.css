@@ -1,0 +1,122 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* .nav-container {
+    background-image: url("assets/img/logo.png");
+    background-repeat: no-repeat;
+  } */
+* {
+  padding: 0;
+  margin: 0;
+  /* background: rgb(155, 65, 155); */
+}
+.logo {
+  height: 7vh;
+}
+.alert {
+  height: 30px;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* li a:hover:not(.active) {
+    background-color: #111;
+  } */
+
+.main {
+  height: 40vh;
+  width: 100%;
+  opacity: 0.7;
+  border-radius: 0 0 10px 10px;
+}
+.elements {
+  border: rgb(36, 33, 33) 0.1px;
+  box-shadow: 0px 0px 6px 0px rgb(14, 14, 17);
+  margin: 10px 5%;
+  padding: 3px 10px;
+  border-radius: 7px;
+  width: 85%;
+  background: #2f4562;
+  font-size: 20px;
+  color: white;
+  height: 8vh;
+  /* align-self: center; */
+  text-align: center;
+  vertical-align: middle;
+
+  /* align-content: center; */
+}
+.elements a {
+  text-decoration: none;
+  vertical-align: middle;
+  color: white;
+  line-height: 1.5;
+}
+.elements p {
+  justify-self: center;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+body {
+  padding: 0;
+  color: #f4f4f5;
+  margin: 0;
+  border: 0;
+  /* background: url(assets/img/main.jpg); */
+  font-family: sans-serif;
+}
+h4 {
+  height: 20px;
+  color: black;
+  text-align: center;
+}
+.nav-container {
+  height: 55vh;
+
+  background: url("https://res.cloudinary.com/designstudio/image/upload/q_86%2Cw_900%2Cc_fill%2Cf_auto/api/Case_study_assets/Premier_League/PREMIERLEAGUE-REBRAND-CUP.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 0 0 20% 20pz;
+  /*   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjqzNUjaWH9L9cUTqgroF3D6xwaHrkePvaTpep3o8bNKxqjYkC7g"); */
+}
+.container {
+  justify-content: center;
+  width: 100vw;
+  padding-top: 10px;
+}
+.elements:hover {
+  border: solid yellow 1px;
+}
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .elements {
+    width: 40%;
+    margin: 10px 10px;
+    height: 10vh;
+  }
+  .nav-container {
+    height: 70vh;
+    width: 95%;
+    justify-content: center;
+    margin-left: 2.5%;
+  }
+}

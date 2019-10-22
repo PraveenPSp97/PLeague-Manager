@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+.content {
+  line-height: 40px;
+  height: 45px;
+  background: #506680;
+  margin-top: 10px;
+  color: white;
+  border-radius: 6px;
+  justify-content: center;
+
+  text-align: center;
+}
+#rank,
+#rank1 {
+  width: 20%;
+  margin-right: 5px;
+  background-color: #767092;
+}
+#rank1 {
+  background: #2f4562;
+  color: white;
+  text-align: center;
+}
+#rank2 {
+  background: inherit;
+  width: 20%;
+  padding: 0;
+  line-height: 1.5;
+}
+h4 {
+  color: white;
+}
+#name {
+  width: 60%;
+  margin-right: 5px;
+}
+.title1 h1 {
+  line-height: 0;
+  font-size: 30px;
+}
+.content h2 {
+  line-height: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title1 a {
+  text-decoration: none;
+  color: white;
+  line-height: 2px;
+  margin: 0;
+}
+.title {
+  display: flex;
+  margin-bottom: 10px;
+}
+.title1 {
+  background: #2f4562;
+  height: 50px;
+}
